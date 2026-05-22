@@ -52,11 +52,3 @@ Le traitement de données est orchestré selon les étapes suivantes :
 * Conversion des indicateurs clés vers Pandas pour générer des graphiques (Matplotlib/Seaborn) illustrant la domination des champions à travers le temps.
 
 ---
-
-## 📦 Livrables
-1. **Notebook Colab/Jupyter** : Code source PySpark entièrement commenté et structuré, sans chemins d'accès codés en dur.
-2. **Datasets Parquet Générés** :
-   * `football_stats_partitioned` : Toutes les statistiques d'équipes, partitionnées par saison.
-   * `football_top_teams` : La liste exclusive des champions de chaque saison.
-3. **Graphiques Analytics** : Visualisations des métriques clés (*WinPercentage*, buts marqués, *Goal Differentials*).
----
